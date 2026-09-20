@@ -1,0 +1,23 @@
+# Build directories and outputs
+/build/
+**/build/
+build_*_/
+dependencies.lock
+managed_components/
+
+# Configuration files
+sdkconfig
+sdkconfig.old
+
+# IDE and Editor files
+.vscode/
+.clangd/
+/.settings/
+/.project
+/.cproject
+
+# OS temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.o
